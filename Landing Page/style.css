@@ -1,0 +1,164 @@
+button,
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fullContainer{
+    width: 100%;
+    
+    
+}
+
+*{
+    margin: 0px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(211, 99, 24) ;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .logo img{
+    height: 100px;
+    padding-right: 0px;
+    width: 350px;
+    
+}
+
+header .container .logo{
+    padding: 1px 9px;
+    height: 30px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a{
+    display: inline-block;
+    height: 100px;
+    line-height: 110px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fcba06;;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background-color: rgb(197, 164, 18);
+    height: max-contents;
+}
+
+.banner {
+   background-color: #f5de5e;
+   padding-bottom: 200px; 
+    margin-bottom: 100px; 
+}
+
+.banner h1 {
+    margin-top: 150px;
+    padding-left: 250px;
+    width: 30px;
+    display: inline-block;
+    font-size: 60px;
+    color: rgb(167, 69, 4);
+    text-shadow: 2px 2px 4px red; 
+    line-height: 44px; 
+    font-weight: bolder; 
+}
+
+.banner h1 span.highlight {
+    color: #FFD700;
+}
+
+
+
+.banner h3 {
+    padding-top: 12px;
+    padding-left: 253px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(167, 69, 4);
+    font-weight: bolder;
+}
+
+.banner h3 span.highlight {
+    color: #f8b706; 
+    font-weight: bolder;
+    
+    
+}
+
+.banner p{
+    color:rgb(167, 69, 4);
+    padding-left: 250px;
+    text-shadow: 30px;
+    margin-top: 30px;
+    padding-right: 200px;
+    font-weight: bolder;
+}
+
+.banner button{
+    background-color: #FFD700;
+    color: brown;
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    outline: none;
+    width: 120px;
+    border-color: brown;
+    font-weight: bold;
+    
+    
+}
+.banner button:hover{
+    color: white;
+}
+
+.containers button{
+
+    margin-left: 250px;
+}
+
+.pepimage {
+    padding-left: 450px;
+    position: relative;
+    top: 50px;
+    animation: move 5s infinite alternate ease-in-out; 
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0); 
+    }
+    25% {
+        transform: translate(10px, -10px); 
+    }
+    50% {
+        transform: translate(-10px, 10px); 
+    }
+    75% {
+        transform: translate(10px, 10px); 
+    }
+    100% {
+        transform: translate(0, 0); 
+    }
+}
