@@ -1,0 +1,302 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: rgb(46, 147, 187);
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(28, 7, 212);
+}
+
+.logo span {
+    color: blueviolet;
+}
+
+.navigation a {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(44, 42, 165);
+    font-size: 25px;
+    margin-right: 10px;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: rgb(188, 201, 16);
+}
+
+/* Home Section */
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 100px;
+    justify-content: space-between; 
+}
+
+.me img{
+    width:400px; 
+    height: 500px; 
+    margin-left: 150px; 
+}
+
+.info {
+    max-width: 500px;
+    color: rgb(58, 9, 236);
+}
+
+
+
+.info h1 {
+    font-size: 40px;
+    font-style: italic;
+    color: #5896be;
+}
+
+.info h1 span {
+    color: rgb(0, 60, 255);
+    font-size: 50px;
+}
+
+.info h4 {
+    font-size: 2em;
+    padding-bottom: 20px;
+    color: #5896be;
+}
+
+.btnpress a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgb(6, 38, 143);
+    border-radius: 10px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.btnpress{
+    padding-top: 20px;
+    color: #ccc;
+}
+.info p{
+    font-weight: 900;
+    color: rgb(27, 24, 68);
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 200px;
+    
+}
+
+.aboutpic img {
+    width: 400px;
+}
+
+.heading {
+    font-size: 50px; 
+    text-align: center; 
+    color: #2c3e50; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+    letter-spacing: 1px; 
+    padding-top: 100px;
+}
+
+.about-info h3 {
+    font-size: 30px; 
+    padding-bottom: 20px; 
+    padding-left: 230px; 
+    color: #2980b9; 
+    font-weight: 600; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+.about-info p {
+    padding-bottom: 100px; 
+    font-size: 15px; 
+    line-height: 20px; 
+    color: #34495e; 
+    text-align: justify; 
+    margin-left: 190px; 
+    margin-right: 190px; 
+    font-weight: bolder;
+    
+}
+/* Projects Section */
+.pro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 100px;
+}
+
+.projects.con {
+    flex: 1 1 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: lightskyblue;
+}
+
+.project.con h1{
+    color: blue;
+}
+
+.project.con p{
+    font-style: italic;
+}
+.projects.con:hover {
+    transform: scale(1.02);
+}
+
+.calc img {
+    width: 100px; 
+    height: auto; 
+}
+
+/* Skills Section */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    
+}
+
+.skills {
+    padding-top: 100px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.html {
+    width: 70%; 
+    background-color: blue;
+}
+
+.css {
+    width: 65%; 
+    background-color: rgb(76, 174, 240);
+}
+
+.java {
+    width: 60%; 
+    background-color: rgb(67, 67, 168);
+}
+
+.csharp {
+    width: 72%; 
+    background-color: grey;
+}
+
+.php {
+    width: 70%; 
+    background-color: purple;
+}
+
+
+.contact {
+    max-width: 600px;
+    margin: 100px auto; 
+    padding-bottom: 30px;
+    background-color: #62b7e9; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact .heading {
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 4, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
